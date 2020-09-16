@@ -18,22 +18,22 @@ sudo service ssh restart
 1.Type  ssh in terminal
 username@host:~$ ssh
 2.To install the OpenSSH CLIENT on your computer:
- sudo apt-get install openssh-client
+ $ sudo apt-get install openssh-client
 3.Type in your superuser password when asked.Hit Enter to complete the installation.
 you will need to install the OpenSSH server. Leave the terminal open and:
 
 1] To install the SSH SERVER:
-sudo apt-get install openssh-server ii.
+$ sudo apt-get install openssh-server ii.
 2] Enter and Y to allow the installation to continue after the disk space prompt.
 The required support files will be installed, and then you can check if the SSH server is running on the machine by typing this command:
-sudo service ssh status
+$ sudo service ssh status
 3] Now edit the SSH daemon configuration file, for example, you can change the default port for SSH connections.
- sudo nano /etc/ssh/sshd_config
+ $ sudo nano /etc/ssh/sshd_config
 3] The configuration file will open in the editor of your choice. In this case, we used Nano.
 If you need to install Nano, run this command:
-sudo apt-get install nano
+$ sudo apt-get install nano
 4] We need to restart SSH service every time we make any changes to the sshd_config file:
-sudo service ssh restart
+$ sudo service ssh restart
 
 Establish a secure remote connection with your servers. To do so:
 1.	Open the SSH terminal on your machine and run the following command
