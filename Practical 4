@@ -47,7 +47,8 @@ Configuring the NFS Client Machine:
 Step 1: Install NFS Common
 $ sudo apt-get update
 $ sudo apt-get install nfs-common
-The system will prompt you with a Y/n option to confirm if you want to continue with the installation. Please enter Y and then hit Enter to continue, after which the software will be successfully installed on your system.
+The system will prompt you with a Y/n option to confirm if you want to continue with the installation.
+Please enter Y and then hit Enter to continue, after which the software will be successfully installed on your system.
 
 Step 2: Create a mount point for the NFS host’s shared folder
 Your client’s system needs a directory where all the content shared by the host server in the export folder can be accessed. You can create this folder anywhere on your system. We are creating a mount folder in the mnt directory of our client’s machine:
