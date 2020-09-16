@@ -1,4 +1,5 @@
 Practical No:2
+
 A]Add a user:
 useradd creates a new user account according to the options specified on the command line and the default values set in the /etc/default/useradd file.
 useradd [OPTIONS] USERNAME
